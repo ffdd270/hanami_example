@@ -80,7 +80,7 @@ GEM
     hanami-controller (1.3.2)
       hanami-utils (~> 1.3)
       rack (~> 2.0)
-    hanami-helpers (1.3.1)
+    hanami-helpers (1.3.2)
       hanami-utils (~> 1.3)
     hanami-mailer (1.3.1)
       hanami-utils (~> 1.3)
@@ -120,9 +120,11 @@ GEM
       mini_mime (>= 0.1.1)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
-    nokogiri (1.10.4)
+    nokogiri (1.10.5)
       mini_portile2 (~> 2.4.0)
-    nokogiri (1.10.4-x64-mingw32)
+    nokogiri (1.10.5-x64-mingw32)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.5-x86-mingw32)
       mini_portile2 (~> 2.4.0)
     public_suffix (4.0.1)
     rack (2.0.7)
@@ -179,6 +181,7 @@ GEM
 PLATFORMS
   ruby
   x64-mingw32
+  x86-mingw32
 
 DEPENDENCIES
   capybara
